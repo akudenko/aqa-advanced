@@ -7,7 +7,7 @@ ShortLongShort.solution("22", "1"); // returns "1221"
 */
 
 function getCombinedString(a, b) {
-  return a.length < b.length ? a + b + a : b + a + b;
+	return a.length < b.length ? a + b + a : b + a + b;
 }
 
 console.log(getCombinedString(5, 10));
