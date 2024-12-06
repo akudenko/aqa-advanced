@@ -1,11 +1,11 @@
 // function declaration
 
 function calculateAreaOfRectangle(width, height) {
-  return width * height;
+	return width * height;
 }
 
 const rectangleArea = function (width, height) {
-  return width * height;
+	return width * height;
 };
 
 const secondRectangleArea = (width, height) => width * height;

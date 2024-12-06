@@ -1,13 +1,13 @@
 function handleNum(number, handleNum, handleOdd) {
-  return number % 2 === 0 ? handleEven() : handleOdd();
+	return number % 2 === 0 ? handleEven() : handleOdd();
 }
 
 function handleEven() {
-  return "number is even";
+	return 'number is even';
 }
 
 function handleOdd() {
-  return "number is odd";
+	return 'number is odd';
 }
 
 console.log(handleNum(2, handleEven, handleOdd));

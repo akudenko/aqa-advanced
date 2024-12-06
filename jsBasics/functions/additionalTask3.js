@@ -9,14 +9,14 @@ Write a code that gives out the total amount for different days(d).
 */
 
 function rentalCarCost(d) {
-  let pricePerOneDay = 40;
-  if (d >= 7) {
-    return `Total amount is ${pricePerOneDay * d - 50}`;
-  } else if (d >= 3 && d < 7) {
-    return `Total amount is ${pricePerOneDay * d - 20}`;
-  } else {
-    return `Total amount is ${pricePerOneDay * d}`;
-  }
+	let pricePerOneDay = 40;
+	if (d >= 7) {
+		return `Total amount is ${pricePerOneDay * d - 50}`;
+	} else if (d >= 3 && d < 7) {
+		return `Total amount is ${pricePerOneDay * d - 20}`;
+	} else {
+		return `Total amount is ${pricePerOneDay * d}`;
+	}
 }
 
 console.log(rentalCarCost(1));
