@@ -5,4 +5,3 @@
 let radius = 5;
 let result = (Math.PI * (radius * radius)).toFixed(2);
 console.log(`Area of circle is: ${result}`);
-

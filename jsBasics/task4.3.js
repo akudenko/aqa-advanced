@@ -6,4 +6,4 @@
 let radius = 5;
 let height = 12;
 let result = (Math.PI * (radius * radius) * height).toFixed(2);
-console.log(`Area of cylinder is: ${result}`)
+console.log(`Area of cylinder is: ${result}`);

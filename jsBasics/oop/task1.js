@@ -1,5 +1,5 @@
-import { Book } from "./book.js";
-import { EBook } from "./ebook.js";
+import { Book } from './book.js';
+import { EBook } from './ebook.js';
 
 let book1 = new Book('Game Of Thrones', 'J Martin', 1995);
 let book2 = new Book('Lord of the rings', 'J R Tolkien', 1960);
