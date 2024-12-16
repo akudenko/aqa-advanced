@@ -1,3 +1,5 @@
 node_modules/
 
 package-lock.json
+api/tests/jest-html-reporters-attach/
+api/tests/jest_html_reporters.html

@@ -1,13 +1,18 @@
-import js from '@eslint/js';
+// import js from '@eslint/js';
 
-export default [
-	js.configs.recommended,
+// export default [
+// 	js.configs.recommended,
 
-	{
-		rules: {
-			'no-unused-vars': 'warn',
-			'no-undef': 'warn',
-			'no-console': 'warn',
-		},
-	},
-];
+// 	{
+// 		rules: {
+// 			'no-unused-vars': 'warn',
+// 			'no-undef': 'warn',
+// 			'no-console': 'warn',
+// 		},
+// 	},
+// ];
+
+
+// "prepare": "husky",
+// "eslint:all": "npx eslint .",
+// "prettier:fix": "npx prettier --write ."
